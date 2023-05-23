@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var account = new BankAccount();
+            
+            Console.WriteLine("New Deposit");
+            account.Deposit(Convert.ToInt32(Console.ReadLine()));
+            
+            Console.WriteLine($"Your balance is now {account.GetBalance()}");
+            
+
+
+
         }
     }
 }
