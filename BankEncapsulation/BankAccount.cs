@@ -10,7 +10,7 @@ namespace BankEncapsulation
     public class BankAccount
     {
         private double _balance = 0;
-        public string User { get; set; }
+        public string account { get; set; }
         public void Deposit(double increaseFunds)
         {
             _balance += increaseFunds;

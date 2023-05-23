@@ -7,7 +7,7 @@
             var account = new BankAccount();
             
             Console.WriteLine("New Deposit");
-            account.Deposit(Convert.ToInt32(Console.ReadLine()));
+            account.Deposit(Convert.ToDouble(Console.ReadLine()));
             
             Console.WriteLine($"Your balance is now {account.GetBalance()}");
             
